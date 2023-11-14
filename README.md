@@ -12,8 +12,8 @@ Based on [Wikipedia_Semantic_Search_With_Cohere_Embeddings_Archives.ipynb](https
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/deadbits/wikichat.git
-   cd wikichat
+   git clone https://github.com/deadbits/wikipedia-chat.git
+   cd wikipedia-chat
    ```
 
 2. **Setup Python virtual environment:**
