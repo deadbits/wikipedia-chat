@@ -6,6 +6,8 @@
 
 I wanted to explore the idea of maintaining a local copy of Wikipedia, and this seemed like a good entry point. Down the road I might update this code to regularly pull the [full Wikipedia dump](https://dumps.wikimedia.org/) and create the embeddings, instead of relying on Cohere's prebuilt embeddings. I went this route as a proof of concept, and as an excuse to try out [Chainlit](https://docs.chainlit.io/get-started/overview).
 
+Based on [Wikipedia_Semantic_Search_With_Cohere_Embeddings_Archives.ipynb](https://github.com/cohere-ai/notebooks/blob/main/notebooks/Wikipedia_Semantic_Search_With_Cohere_Embeddings_Archives.ipynb)
+
 ## 🛠 Installation
 
 1. **Clone the Repository:**
