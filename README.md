@@ -54,3 +54,7 @@ To initiate the web interface, run the `chainlit_ui.py` script with the Chainlit
 ```python
 chainlit run chainlit_ui.py
 ```
+
+**Chainlit interface**
+
+![Chainlit UI](data/chainlit.png)

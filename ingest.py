@@ -1,7 +1,9 @@
+import os
 import sys
 from tqdm import tqdm
 from loguru import logger
 from datasets import load_dataset
+
 from wikichat.vectordb import VectorDB
 from wikichat.models import Document
 
@@ -41,7 +43,7 @@ for doc in tqdm(docs_stream, total=max_docs):
         logger.info(f'Processing document: {new.docid} {new.title}')
 
     if len(docs_chunk) >= chunk_size:
-        logger.info(f'Addimg {chunk_size} documents to database.')
+        logger.info(f'Adding {chunk_size} documents to database.')
         texts = [doc.text for doc in docs_chunk]
         embeddings = [doc.emb for doc in docs_chunk]
         metadatas = [{'docid': doc.docid, 'title': doc.title} for doc in docs_chunk]
